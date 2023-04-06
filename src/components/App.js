@@ -4,7 +4,7 @@ import { Loader } from './Loader'
 import { Todo } from './Todo'
 const App = () => {
   const [todos, setTodos] = useState([])
-  const [loader, setLoader] = useState(false)
+  const [loader, setLoader] = useState(true)
   const [completed, setCompleted] = useState(true)
   const [incomplete, setIncomplete] = useState(true)
   useEffect(() => {
